@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour {
 	private float LightMaxRange = 150f;
 	private float LightMinRange = 4f;
 
+	// Fall
+	private float timeInAir = 0f;
+ 	public float FallingDeathTimer = 3f;
+
 	private List<Vector2> flamesPositions = new List<Vector2>();
 
 	private Rigidbody2D rigidbody;
@@ -58,6 +62,9 @@ public class PlayerController : MonoBehaviour {
 		FixedVelocity.x *= 0.75f;
 		if (grounded) {
 			rigidbody.velocity = FixedVelocity;
+			Debug.Log("timeInAir --> " +  timeInAir);
+		} else {
+			timeInAir += Time.deltaTime;
 		}
 		float h = Input.GetAxis ("Horizontal");
 		if (h < -0.1f) {//Movimiento izda
@@ -85,9 +92,10 @@ public class PlayerController : MonoBehaviour {
 
 		//IncreaseLight ();
 
-
-
-
+		if (timeInAir >= FallingDeathTimer) 
+		{
+			Die();
+		}
 
 	}
 
@@ -128,12 +136,13 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		Debug.Log ("incrementando llama");
 		IncreaseLight ();
+		AddFlamePosition(col.transform.position);
 		Destroy (col.gameObject);
-
 	}
 
     void Die()
     {
+		Debug.Log("Death");
 		StartCoroutine(GameManager.instance.FadeOut());
 		GameManager.instance.StartGame();
     }
@@ -141,6 +150,7 @@ public class PlayerController : MonoBehaviour {
 	public void AddFlamePosition(Vector2 newFlamePos){
 		flamesPositions.Add(newFlamePos);
 	}
+
 
 
 }
