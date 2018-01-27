@@ -131,7 +131,6 @@ public class PlayerController : MonoBehaviour {
 		Destroy (col.gameObject);
 
 	}
-}
 
     void Die()
     {
