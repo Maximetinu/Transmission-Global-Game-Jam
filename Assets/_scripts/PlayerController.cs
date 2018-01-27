@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour {
 	public float jumpForce = 8f;
 	public bool isJumping = false;
 
+	private List<Vector2> flamesPositions = new List<Vector2>();
+
 	private Rigidbody2D rigidbody;
 	private Animator anim;
 
@@ -77,4 +79,10 @@ public class PlayerController : MonoBehaviour {
 		StartCoroutine(GameManager.instance.FadeOut());
 		GameManager.instance.StartGame();
     }
+
+	public void AddFlamePosition(Vector2 newFlamePos){
+		flamesPositions.Add(newFlamePos);
+	}
+
+
 }
