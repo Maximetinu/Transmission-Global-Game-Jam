@@ -14,12 +14,16 @@ public class PlayerController : MonoBehaviour {
 	public float range = 4f;
 
 	//Parameter used for make configurable the radius increase of the light
-	private float LightRangeVariator = 2f;
+	private float LightRangeVariator = 0.5f;
 	private float LightCurrent;
-	private float LigthInitial = 18;
+	private float LigthInitial = 4;
 	private float LightMaxRange = 150f;
 	private float LightMinRange = 4f;
 
+	// Fall
+	private float timeInAir = 0f;
+ 	public float FallingDeathTimer = 3f;
+	private bool deathWhenGround = true;
 
 	private List<Vector2> flamesPositions = new List<Vector2>();
 
@@ -57,9 +61,24 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate(){
 		Vector2 FixedVelocity = rigidbody.velocity;
 		FixedVelocity.x *= 0.75f;
+
 		if (grounded) {
 			rigidbody.velocity = FixedVelocity;
+
+			if (deathWhenGround){
+				deathWhenGround = false;
+				Die();
+			}
+
+		} else {
+			timeInAir += Time.deltaTime;
 		}
+
+
+		if (timeInAir >= FallingDeathTimer){
+			deathWhenGround = true;
+		}
+
 		float h = Input.GetAxis ("Horizontal");
 		if (h < -0.1f) {//Movimiento izda
 			transform.localScale = new Vector3(-1f,1f,1f);
@@ -84,10 +103,7 @@ public class PlayerController : MonoBehaviour {
 		//aura = GetComponents<Light>()[0];
 		//Debug.Log ( GetComponentsInParent<Light>().Length);
 
-		IncreaseLight ();
-
-
-
+		//IncreaseLight ();
 
 
 	}
@@ -129,12 +145,13 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		Debug.Log ("incrementando llama");
 		IncreaseLight ();
+		AddFlamePosition(col.transform.position);
 		Destroy (col.gameObject);
-
 	}
 
     void Die()
     {
+		Debug.Log("Death");
 		StartCoroutine(GameManager.instance.FadeOut());
 		GameManager.instance.StartGame();
     }
@@ -142,6 +159,7 @@ public class PlayerController : MonoBehaviour {
 	public void AddFlamePosition(Vector2 newFlamePos){
 		flamesPositions.Add(newFlamePos);
 	}
+
 
 
 }
