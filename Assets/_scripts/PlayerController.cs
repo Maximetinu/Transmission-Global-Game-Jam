@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour { 
+    public static PlayerController instance = null;
 
-	public float speed = 60f;
+    public float speed = 60f;
 	public float maxSpeed = 3f;
 	public bool grounded;
 	public float jumpForce = 8f;
@@ -19,13 +20,25 @@ public class PlayerController : MonoBehaviour {
 	private float LightMaxRange = 150f;
 	private float LightMinRange = 4f;
 
-	private Rigidbody2D rb2d;
+	private List<Vector2> flamesPositions = new List<Vector2>();
+
+	private Rigidbody2D rigidbody;
 	private Animator anim;
 	private Light aura;
 
-	// Use this for initialization
-	void Start () {
-		rb2d = GetComponent<Rigidbody2D>();
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+        
+        DontDestroyOnLoad(gameObject);
+    }
+
+    // Use this for initialization
+    void Start () {
+		rigidbody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
 		StartLight ();
 
@@ -33,7 +46,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		anim.SetFloat ("Speed", Math.Abs( rb2d.velocity.x));	
+		anim.SetFloat ("Speed", Math.Abs( rigidbody.velocity.x));	
 		anim.SetBool ("Grounded", grounded);
 		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
 			isJumping = true;
@@ -41,28 +54,29 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		Vector2 FixedVelocity = rb2d.velocity;
+		Vector2 FixedVelocity = rigidbody.velocity;
 		FixedVelocity.x *= 0.75f;
 		if (grounded) {
-			rb2d.velocity = FixedVelocity;
+			rigidbody.velocity = FixedVelocity;
 		}
 		float h = Input.GetAxis ("Horizontal");
 		if (h < -0.1f) {//Movimiento izda
 			transform.localScale = new Vector3(-1f,1f,1f);
 		} else if (h > 0.1f) {//Movimiento dcha
-			transform.localScale = new Vector3(1f,1f,1f);		}
+			transform.localScale = new Vector3(1f,1f,1f);
+        }
 
-		rb2d.AddForce(Vector2.right * speed * h);
-		if (rb2d.velocity.x > maxSpeed){
-			rb2d.velocity = new Vector2 (maxSpeed, rb2d.velocity.y);
+		rigidbody.AddForce(Vector2.right * speed * h);
+		if (rigidbody.velocity.x > maxSpeed){
+			rigidbody.velocity = new Vector2 (maxSpeed, rigidbody.velocity.y);
 		}
-		if (rb2d.velocity.x < -maxSpeed){
-			rb2d.velocity = new Vector2 (-maxSpeed, rb2d.velocity.y);
+		if (rigidbody.velocity.x < -maxSpeed){
+			rigidbody.velocity = new Vector2 (-maxSpeed, rigidbody.velocity.y);
 		}
 
 		//Comprobamos salto
 		if (isJumping == true){
-			rb2d.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
+			rigidbody.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
 			isJumping = false;
 		}
 		//aura = GetComponentInChildren<Light> ();
@@ -76,10 +90,12 @@ public class PlayerController : MonoBehaviour {
 
 
 	}
+
 	void OnBecameInvisible(){
-		rb2d.position = new Vector3 (-1f, 1f, 1f);
+		rigidbody.position = new Vector3 (-1f, 1f, 1f);
 	}
 
+<<<<<<< HEAD
 	/**
 	 * Increase range of the ligth player
 	 **/
@@ -116,3 +132,17 @@ public class PlayerController : MonoBehaviour {
 
 	}
 }
+=======
+    void Die()
+    {
+		StartCoroutine(GameManager.instance.FadeOut());
+		GameManager.instance.StartGame();
+    }
+
+	public void AddFlamePosition(Vector2 newFlamePos){
+		flamesPositions.Add(newFlamePos);
+	}
+
+
+}
+>>>>>>> dc2f628c33b804e2985a210d171dc652b0213bc0
