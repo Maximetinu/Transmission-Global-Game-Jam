@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour {
 
     void Die()
     {
-		 StartCoroutine(GameManager.instance.FadeOut());
+		StartCoroutine(GameManager.instance.FadeOut());
+		GameManager.instance.StartGame();
     }
 }

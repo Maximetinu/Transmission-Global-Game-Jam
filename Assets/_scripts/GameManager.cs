@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
     void Start ()
     {
         Physics.gravity = new Vector3(0, 20.0F, 0);
+        StartGame();
     }
 	
 
@@ -27,8 +28,9 @@ public class GameManager : MonoBehaviour {
 	}
     
 
-    private void ResetScene()
+    public void StartGame()
     {
+        StartCoroutine(FadeIn());
     }
 
 
