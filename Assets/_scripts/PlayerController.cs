@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour {
 		rigidbody.position = new Vector3 (-1f, 1f, 1f);
 	}
 
-<<<<<<< HEAD
+
 	/**
 	 * Increase range of the ligth player
 	 **/
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour {
 
 	}
 }
-=======
+
     void Die()
     {
 		StartCoroutine(GameManager.instance.FadeOut());
@@ -145,4 +145,4 @@ public class PlayerController : MonoBehaviour {
 
 
 }
->>>>>>> dc2f628c33b804e2985a210d171dc652b0213bc0
+
