@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour {
 		//aura = GetComponents<Light>()[0];
 		//Debug.Log ( GetComponentsInParent<Light>().Length);
 
-		IncreaseLight ();
+		//IncreaseLight ();
 
 
 
@@ -83,6 +83,7 @@ public class PlayerController : MonoBehaviour {
 	/**
 	 * Increase range of the ligth player
 	 **/
+
 	private void IncreaseLight(){
 		aura = transform.GetChild(0).GetComponent<Light>();
 		//Debug.Log (aura.spotAngle+";"+LightMaxRange);
@@ -94,7 +95,7 @@ public class PlayerController : MonoBehaviour {
 
 	private void DecreaseLigth(){
 		if (aura.spotAngle >= LightMinRange) {
-			aura = transform.GetChild (0).GetComponent<Light> ();
+			aura = transform.GetComponentInChildren<Light> ();
 			aura.spotAngle -= LightRangeVariator;
 			LightCurrent = aura.range;
 		}
@@ -108,7 +109,10 @@ public class PlayerController : MonoBehaviour {
 		aura.spotAngle = LigthInitial;
 	}
 
-	void onCollisionEnter2D(Collider2D col){
-		
+	void OnTriggerEnter2D(Collider2D col){
+		Debug.Log ("incrementando llama");
+		IncreaseLight ();
+		Destroy (col.gameObject);
+
 	}
 }
