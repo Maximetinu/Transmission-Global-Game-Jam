@@ -156,6 +156,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -259,6 +264,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -309,7 +319,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -360,6 +370,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -406,6 +421,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -461,7 +481,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -575,6 +595,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -677,6 +702,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -723,6 +753,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -941,6 +976,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -987,6 +1027,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1033,6 +1078,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1131,6 +1181,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1177,6 +1232,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1228,6 +1288,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1279,6 +1344,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1335,6 +1405,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1381,6 +1456,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1432,6 +1512,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1473,6 +1558,10 @@ Prefab:
     - target: {fileID: 4206103702544982, guid: cf0ff97a8b8d0ed4ea15884d58f740a4, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612291085711984, guid: cf0ff97a8b8d0ed4ea15884d58f740a4, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf0ff97a8b8d0ed4ea15884d58f740a4, type: 2}
@@ -1520,6 +1609,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1566,6 +1660,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1617,6 +1716,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1687,7 +1791,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -1743,6 +1847,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1793,7 +1902,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -1854,6 +1963,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1900,6 +2014,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -1946,6 +2065,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2001,6 +2125,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 0.94096565
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2079,6 +2208,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2140,6 +2274,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2191,6 +2330,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2241,7 +2385,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -2296,7 +2440,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
@@ -2347,6 +2491,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2393,6 +2542,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2522,6 +2676,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2568,6 +2727,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2670,6 +2834,11 @@ Prefab:
       propertyPath: m_Name
       value: plataforma1x1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 212497031739114506, guid: 804bcc5dbf5277545a2af998f03ee534,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
   m_IsPrefabParent: 0
@@ -2868,7 +3037,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d01ab7f4551d2fd459f68685a34a74de, type: 2}
+      objectReference: {fileID: 2100000, guid: d9bd5f9039bdf854aa37f3e87fe73284, type: 2}
     - target: {fileID: 1246583405414940, guid: 804bcc5dbf5277545a2af998f03ee534, type: 2}
       propertyPath: m_Layer
       value: 9
