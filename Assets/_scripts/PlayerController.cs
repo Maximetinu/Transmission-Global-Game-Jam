@@ -14,11 +14,12 @@ public class PlayerController : MonoBehaviour {
 	public float range = 4f;
 
 	//Parameter used for make configurable the radius increase of the light
-	private float LightRangeVariator = 0.5f;
+	private float LightRangeVariator = 2f;
 	private float LightCurrent;
-	private float LigthInitial = 4;
+	private float LigthInitial = 18;
 	private float LightMaxRange = 150f;
 	private float LightMinRange = 4f;
+
 
 	private List<Vector2> flamesPositions = new List<Vector2>();
 
@@ -83,7 +84,7 @@ public class PlayerController : MonoBehaviour {
 		//aura = GetComponents<Light>()[0];
 		//Debug.Log ( GetComponentsInParent<Light>().Length);
 
-		//IncreaseLight ();
+		IncreaseLight ();
 
 
 
