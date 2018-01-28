@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 655128748ad392b428df516937624125
-timeCreated: 1517128725
+timeCreated: 1517129397
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Sprite_Boss_0
+    21300002: Sprite_Boss_1
+    21300004: Sprite_Boss_2
+    21300006: Sprite_Boss_3
+    21300008: Sprite_Boss_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,7 +93,77 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Boss_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2806.4
+        width: 2444
+        height: 701.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Boss_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2105.4
+        width: 2444
+        height: 701.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Boss_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1404.4
+        width: 2444
+        height: 701.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Boss_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 703.4
+        width: 2444
+        height: 701.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_Boss_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2.4000244
+        width: 2444
+        height: 701.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
