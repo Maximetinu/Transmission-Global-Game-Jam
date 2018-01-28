@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 655128748ad392b428df516937624125
-timeCreated: 1517129397
+guid: a3294acda7844004eb164f2d1080ff09
+timeCreated: 1517131435
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sprite_Boss_0
-    21300002: Sprite_Boss_1
-    21300004: Sprite_Boss_2
-    21300006: Sprite_Boss_3
-    21300008: Sprite_Boss_4
+    21300000: Bosss_0
+    21300002: Bosss_1
+    21300004: Bosss_2
+    21300006: Bosss_3
+    21300008: Bosss_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -95,13 +95,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_Boss_0
+      name: Bosss_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 2806.4
-        width: 2444
-        height: 701.6
+        x: 0
+        y: 1889.6
+        width: 1890
+        height: 472.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,13 +109,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite_Boss_1
+      name: Bosss_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 2105.4
-        width: 2444
-        height: 701.6
+        x: 0
+        y: 1417.6
+        width: 1890
+        height: 472.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,13 +123,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite_Boss_2
+      name: Bosss_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1404.4
-        width: 2444
-        height: 701.6
+        x: 0
+        y: 945.6
+        width: 1890
+        height: 472.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,13 +137,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite_Boss_3
+      name: Bosss_3
       rect:
         serializedVersion: 2
-        x: 36
-        y: 703.4
-        width: 2444
-        height: 701.6
+        x: 0
+        y: 473.6
+        width: 1890
+        height: 472.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,13 +151,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite_Boss_4
+      name: Bosss_4
       rect:
         serializedVersion: 2
-        x: 36
-        y: 2.4000244
-        width: 2444
-        height: 701.6
+        x: 0
+        y: 1.6000061
+        width: 1890
+        height: 472.4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
