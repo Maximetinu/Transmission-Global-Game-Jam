@@ -311,6 +311,8 @@ MonoBehaviour:
   jumpForce: 8
   isJumping: 0
   range: 4
+  LightCurrent: 0
+  LigthInitial: 40
   FallingDeathTimer: 3
 --- !u!124 &124371699538159516
 Behaviour:
