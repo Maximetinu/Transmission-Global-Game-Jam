@@ -57,8 +57,8 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		anim.SetFloat ("Speed", Math.Abs( myRigidbody.velocity.x));	
-		anim.SetBool ("Grounded", grounded);
+		//anim.SetFloat ("Speed", Math.Abs( myRigidbody.velocity.x));	
+		//anim.SetBool ("Grounded", grounded);
 		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
 			isJumping = true;
 		}
@@ -119,9 +119,9 @@ public class PlayerController : MonoBehaviour {
 
 		float h = Input.GetAxis ("Horizontal");
 		if (h < -0.1f) {//Movimiento izda
-			transform.localScale = new Vector3(-1f,1f,1f);
+			transform.localScale = new Vector3(- Math.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
 		} else if (h > 0.1f) {//Movimiento dcha
-			transform.localScale = new Vector3(1f,1f,1f);
+			transform.localScale = new Vector3(Math.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
 
 		myRigidbody.AddForce(Vector2.right * speed * h);
