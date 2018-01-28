@@ -182,6 +182,7 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.tag == "Llama"){
+			AudioSource.PlayClipAtPoint(GameManager.instance.llamaClip,transform.position);
             IncreaseLight();
 			AddFlamePosition(col.GetComponent<FireController>().GetOriginPosition());
             Destroy(col.gameObject);

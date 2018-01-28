@@ -12,6 +12,8 @@ public class NarrativeTrigger : MonoBehaviour
     float readDuration = 2.0f;
     float fadeOutDuration = 3.0f;
 
+    public AudioClip TextSound;
+
     public bool ActivateText;
 
     private bool currentlyRunning = false;
@@ -43,6 +45,7 @@ public class NarrativeTrigger : MonoBehaviour
 
     public void ShowNarrative()
     {
+        AudioSource.PlayClipAtPoint(TextSound, transform.position);
         if (!currentlyRunning)
             StartCoroutine(ShowText());
 

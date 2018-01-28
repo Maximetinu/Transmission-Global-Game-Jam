@@ -845,6 +845,11 @@ Prefab:
       propertyPath: boss
       value: 
       objectReference: {fileID: 240822110}
+    - target: {fileID: 114568156197324868, guid: 09e4eec30c94fa443b1ce547590c3db2,
+        type: 2}
+      propertyPath: llamaClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ed0e22b9c43b8b4468a574b917f4dafa, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 09e4eec30c94fa443b1ce547590c3db2, type: 2}
   m_IsPrefabParent: 0
@@ -1174,6 +1179,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -1748,6 +1758,11 @@ Prefab:
       propertyPath: m_Name
       value: NarrativePlatform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -2031,6 +2046,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -2984,6 +3004,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -3058,6 +3083,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -4201,6 +4231,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -5398,6 +5433,11 @@ Prefab:
       propertyPath: m_Name
       value: NarrativePlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -6017,6 +6057,11 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: 948ccc7536bab1e4a8b30e4aec313b43,
         type: 2}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -7083,6 +7128,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -8321,6 +8371,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -9222,6 +9277,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -9846,6 +9906,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -11179,6 +11244,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -12670,6 +12740,91 @@ Transform:
   m_PrefabParentObject: {fileID: 4579040274628546, guid: fa0c81ab87ec8ca48aa624c69f38e0f1,
     type: 2}
   m_PrefabInternal: {fileID: 1343822799}
+--- !u!1 &1583713869 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1463893687309574, guid: 964ae5a4fe604fb428f188a8c33ba296,
+    type: 2}
+  m_PrefabInternal: {fileID: 781750602}
+--- !u!82 &1583713876
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583713869}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 209c406706bbd5440a1991e414f11324, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!4 &1585553767 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4815507144824274, guid: 9219b1b7de576944f84b45fe35ca1102,
@@ -12936,6 +13091,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -13372,6 +13532,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -13538,6 +13703,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -14295,6 +14465,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -15003,6 +15178,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -15509,6 +15689,11 @@ Prefab:
       propertyPath: m_Name
       value: NarrativePlatform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -15685,6 +15870,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.29999998
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0
@@ -16422,6 +16612,11 @@ Prefab:
       propertyPath: m_Name
       value: NarrativePlatform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114417190271312596, guid: 2bf4754a76d7c094aa697b08119fbd33,
+        type: 2}
+      propertyPath: TextSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 84218ff8fb2bb254093f374c95367cbf, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bf4754a76d7c094aa697b08119fbd33, type: 2}
   m_IsPrefabParent: 0

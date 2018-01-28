@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
     public GameObject LlamaPrefabReference;
 
+    public AudioClip llamaClip;
+
     public GameObject key;
     public GameObject boss;
 
