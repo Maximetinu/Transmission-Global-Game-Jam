@@ -5,11 +5,11 @@ using UnityEngine;
 public class ColisionGroundController : MonoBehaviour {
 
 	private PlayerController player;
-	private Rigidbody2D rg2d;
+	//private Rigidbody2D rg2d;
 	// Use this for initialization
 	void Start () {
 		player = GetComponentInParent<PlayerController> ();
-		rg2d = GetComponentInParent<Rigidbody2D> ();
+		//rg2d = GetComponentInParent<Rigidbody2D> ();
 	}
 
 	void OnCollisionEnter2D(Collision2D col){

@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour {
 	private Light aura;
 
 	//key
-	//private bool hasKey = false;
+	private bool hasKey = false;
 
     void Awake()
     {
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
         else if (instance != this)
             Destroy(gameObject);
         
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     // Use this for initialization
@@ -74,7 +74,6 @@ public class PlayerController : MonoBehaviour {
 	void Damage(float fallingTime){
 		int vidaPerdida = Mathf.RoundToInt(Mathf.Pow(fallingTime, fallingFactor));
 		HealthPoints -= vidaPerdida;
-		Debug.Log("Me queda de vida: " + HealthPoints);
 		if (vidaPerdida >= HealthPoints)
 			PerderLlamas(flamesPositions.Count - 1);
 		else
@@ -87,7 +86,6 @@ public class PlayerController : MonoBehaviour {
 	void PerderLlamas(int llamasPerdidas){
 		aura.range -= LightRangeVariator * llamasPerdidas;
 		for (int i = 0; i <= llamasPerdidas; i++){
-			Debug.Log("Spawneando llama perdida");
 			int selected = UnityEngine.Random.Range(0, flamesPositions.Count - 1);
 			GameObject nuevaLlama = Instantiate(GameManager.instance.LlamaPrefabReference,transform.position, transform.rotation);
 			nuevaLlama.GetComponent<Collider2D>().enabled = false;
@@ -187,14 +185,22 @@ public class PlayerController : MonoBehaviour {
             IncreaseLight();
 			AddFlamePosition(col.GetComponent<FireController>().GetOriginPosition());
             Destroy(col.gameObject);
+		} else if (col.tag =="Llave"){
+			Destroy(col.gameObject);
+			setKey(true);
+			GameManager.instance.SpawnBoss();
+		} else if (col.tag == "Puerta" && !hasKey){
+			GameManager.instance.SpawnKey();
+		} else if (col.tag == "Puerta" && hasKey){
+			GameManager.instance.Win();
+		} else if (col.tag == "Boss"){
+			Die();
 		}
 	}
 
-    void Die()
+    public void Die()
     {
-		Debug.Log("Death");
-		StartCoroutine(GameManager.instance.FadeOut());
-		GameManager.instance.StartGame();
+		GameManager.instance.GameOver();
     }
 
 	public void AddFlamePosition(Vector2 newFlamePos){
@@ -202,7 +208,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void setKey(bool b){
-		//hasKey = b;
+		hasKey = b;
 	}
 }
 

@@ -26,4 +26,10 @@ public class BossIA : MonoBehaviour {
 		//transform.rotation = currentDirection;
 		//currentDirection
 	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag == "Player")
+			PlayerController.instance.Die();
+	}
 }
