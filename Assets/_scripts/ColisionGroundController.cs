@@ -14,7 +14,7 @@ public class ColisionGroundController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == LayersAndTags.Platform) {
-			//rg2d.velocity = new Vector3 (0f, 0f, 0f);
+			rg2d.velocity = new Vector3 (0f, 0f, 0f);
 			player.grounded = true;
 			player.transform.parent = col.transform;
 		}	
