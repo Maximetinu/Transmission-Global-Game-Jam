@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour {
 
 	private List<Vector2> flamesPositions = new List<Vector2>();
 
-	private Rigidbody2D rigidbody;
+	private Rigidbody2D myRigidbody;
 	private Animator anim;
 	private Light aura;
 
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		rigidbody = GetComponent<Rigidbody2D>();
+		myRigidbody = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator> ();
 		StartLight ();
 
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		anim.SetFloat ("Speed", Math.Abs( rigidbody.velocity.x));	
+		anim.SetFloat ("Speed", Math.Abs( myRigidbody.velocity.x));	
 		anim.SetBool ("Grounded", grounded);
 		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
 			isJumping = true;
@@ -59,11 +59,11 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		Vector2 FixedVelocity = rigidbody.velocity;
+		Vector2 FixedVelocity = myRigidbody.velocity;
 		FixedVelocity.x *= 0.75f;
 
 		if (grounded) {
-			rigidbody.velocity = FixedVelocity;
+			myRigidbody.velocity = FixedVelocity;
 
 			if (deathWhenGround){
 				deathWhenGround = false;
@@ -86,17 +86,17 @@ public class PlayerController : MonoBehaviour {
 			transform.localScale = new Vector3(1f,1f,1f);
         }
 
-		rigidbody.AddForce(Vector2.right * speed * h);
-		if (rigidbody.velocity.x > maxSpeed){
-			rigidbody.velocity = new Vector2 (maxSpeed, rigidbody.velocity.y);
+		myRigidbody.AddForce(Vector2.right * speed * h);
+		if (myRigidbody.velocity.x > maxSpeed){
+			myRigidbody.velocity = new Vector2 (maxSpeed, myRigidbody.velocity.y);
 		}
-		if (rigidbody.velocity.x < -maxSpeed){
-			rigidbody.velocity = new Vector2 (-maxSpeed, rigidbody.velocity.y);
+		if (myRigidbody.velocity.x < -maxSpeed){
+			myRigidbody.velocity = new Vector2 (-maxSpeed, myRigidbody.velocity.y);
 		}
 
 		//Comprobamos salto
 		if (isJumping == true){
-			rigidbody.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
+			myRigidbody.AddForce(Vector2.up*jumpForce,ForceMode2D.Impulse);
 			isJumping = false;
 		}
 		//aura = GetComponentInChildren<Light> ();
@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void OnBecameInvisible(){
-		rigidbody.position = new Vector3 (-1f, 1f, 1f);
+		myRigidbody.position = new Vector3 (-1f, 1f, 1f);
 	}
 
 
