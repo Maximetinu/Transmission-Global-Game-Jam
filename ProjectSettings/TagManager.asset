@@ -9,6 +9,7 @@ TagManager:
   - NarrativeText
   - Llama
   - fire
+  - Boss
   layers:
   - Default
   - TransparentFX

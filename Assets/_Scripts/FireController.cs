@@ -15,7 +15,7 @@ public class FireController : MonoBehaviour {
 		if (OriginPositionSetted == false)
 			originPosition = new Vector2(transform.position.x, transform.position.y);
 
-		moveToOrigin = (originPosition != null && Vector2.Distance(originPosition,transform.position) >= distanceUmbral);
+		moveToOrigin = (Vector2.Distance(originPosition,transform.position) >= distanceUmbral);
 		myRigidbody = GetComponent<Rigidbody2D>();
 		StartCoroutine(DisableColliderForSeconds(1.0f));
 	}

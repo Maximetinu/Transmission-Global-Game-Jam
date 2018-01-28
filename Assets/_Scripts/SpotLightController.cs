@@ -15,6 +15,14 @@ public class SpotLightController : MonoBehaviour
         StartCoroutine(TurnOnLight());
     }
 
+    public void TurnOn(){
+        StartCoroutine(TurnOnLight());
+    }
+
+    public void TurnOff(){
+        StartCoroutine(TurnOffLight());
+    }
+
     IEnumerator TurnOnLight(){
         float elapsed = 0.0f;
         float start = Time.time;

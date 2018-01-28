@@ -11,11 +11,14 @@ public class PlayerController : MonoBehaviour {
 	public bool grounded;
 	public float jumpForce = 8f;
 	public bool isJumping = false;
-	public float range = 4f;
+
+	// BETTER JUMP!!
+	public float fallMultiplier = 2.5f;
+	public float lowJumpMultiplier = 2.0f;
+	//public float range = 4f;
 
 	//Parameter used for make configurable the radius increase of the light
-	private float LightRangeVariator = 1f;
-	private float LightCurrent;
+	public float LightRangeVariator = 0.5f;
 	private float LigthInitial = 40;
 	public float LightMaxRange = 100;
 
@@ -59,6 +62,10 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
 			isJumping = true;
 		}
+		if (myRigidbody.velocity.y < 0.0f)
+			myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1.0f) * Time.deltaTime;
+		else if (myRigidbody.velocity.y > 0 && !Input.GetKey(KeyCode.UpArrow))
+			myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1.0f) * Time.deltaTime;
 	}
 
 	void Damage(float fallingTime){
@@ -75,6 +82,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void PerderLlamas(int llamasPerdidas){
+		aura.range -= LightRangeVariator * llamasPerdidas;
 		for (int i = 0; i <= llamasPerdidas; i++){
 			Debug.Log("Spawneando llama perdida");
 			int selected = UnityEngine.Random.Range(0, flamesPositions.Count - 1);
@@ -168,7 +176,7 @@ public class PlayerController : MonoBehaviour {
 		aura = transform.GetChild(0).GetComponent<Light>();
 		
 		// Inicializar valores a los seteados por editor para configurar el aura más visualmente
-		LigthInitial = LightCurrent = aura.range;
+		LigthInitial = aura.range;
 	}
 
 	void OnTriggerEnter2D(Collider2D col){

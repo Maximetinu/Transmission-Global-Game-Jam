@@ -93,12 +93,15 @@ public class NarrativeTrigger : MonoBehaviour
         while (elapsed < fadeOutDuration);
         narrativeText.text = "";
         //GetComponent<ParticleSystem>().Stop();
+        GetComponent<ParticleSystem>().Stop();
         currentlyRunning = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
             ShowNarrative();
+            GetComponent<Collider2D>().enabled = false;
+            GetComponentInChildren<SpotLightController>().TurnOff();
     }
 }
