@@ -10,6 +10,8 @@ TagManager:
   - Llama
   - fire
   - Boss
+  - Llave
+  - Puerta
   layers:
   - Default
   - TransparentFX

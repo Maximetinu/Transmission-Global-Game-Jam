@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30e24104cfdde8419228828448cfe72, type: 3}
+  m_Name: Adulto
+  m_EditorClassIdentifier: 
+  set:
+  - "Con el tiempo entend\xED que los patrones de comportamiento\nque la sociedad
+    me asociaba eran una forma de mantenerme bajo control.\r\n"
+  - La sociedad quiere mantenerme bajo control.
+  - "En aquella \xE9poca, perd\xED a una persona muy cercana porque no quise ser su
+    pareja.\r\n"
+  - "Rechac\xE9 una propuesta de noviazgo y me juzgaron por ello.\r\n"
+  - "Me hice mi primer tatuaje.\r\n"
+  - "Dec\xEDan de m\xED que era alguien muy dif\xEDcil porque, normalmente, no quer\xEDa
+    tener sexo con desconocidos.\r\n"
+  - "En la universiad, tuve un profesor que me suspendi\xF3 por no corresponder su\nexcesiva
+    simpat\xEDa, y no pude hacer nada para defenderme porque nadie me crey\xF3.\r\n"
+  - "En segundo de carrera tuve mi primera pareja seria. Al principio fue todo muy
+    bonito,\npero pronto empez\xF3 a sentir celos.\r\n"
+  - "Durante mi noviazgo en la universidad, tuve que alejarme de muchas personas.\nA
+    mi pareja no les ca\xEDan bien."
+  - "Cada noche nos ten\xEDamos que llamar por tel\xE9fono para darnos las buenas
+    noches.\nComo est\xE1bamos acostumbrados, si no lo hac\xEDamos, se enfadaba.\r\n"
+  - "Cuando les cont\xE9 a mis amigues las peleas que ten\xEDa con mi pareja,\n lloraron
+    por m\xED."
+  - "Mi familia dej\xF3 de apoyarme en mis relaciones cuando les cont\xE9 que ya no\nquer\xEDa
+    estar m\xE1s con mi pareja\r\n"
+  - "Cuando estaba acabando la universidad, me sent\xED muy comprendide\npor un grupo
+    de personas incre\xEDbles de las que aprend\xED much\xEDsimo"
+  - "Despu\xE9s de tantos a\xF1os me di cuenta de que, al fin y al cabo, hab\xEDa
+    gente que\nme comprend\xEDa, y a la que pod\xEDa comprender."
+  - "Un grupo de personas nos reun\xEDamos para aportar\nvisiones cr\xEDticas de lo
+    establecido."
+  - "Recib\xED una paliza por defender a una familia a la que quer\xEDan deshauciar.\r\n"
+  - "No me aceptaron en un trabajo. Dec\xEDan que era por el tatuaje, pero sab\xEDa
+    que no.\r\n"
+  - "Mi m\xE9dico me ha recetado antidepresivos.\r\n"
+  - "La sociedad me ense\xF1\xF3 a competir con el resto de mujeres.\nHe comprendido
+    que debemos unirnos.\r\n"
+  - "Juntes somos m\xE1s fuertes contra las injusticias.\r\n"
+  - "Se sorprend\xEDan de que jugara a videojuegos.\r\n"

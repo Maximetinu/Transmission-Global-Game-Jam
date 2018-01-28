@@ -7,11 +7,11 @@ public class Parallax : MonoBehaviour {
 	public float factor = 0.01f;
 	public float offset = 0.0f;
 	private float playerInitialPositionY;
-	private float currentPlayerPositionY;
+	//private float currentPlayerPositionY;
 
 	// Use this for initialization
 	void Start () {
-		playerInitialPositionY = currentPlayerPositionY = PlayerController.instance.transform.position.y;
+		playerInitialPositionY = PlayerController.instance.transform.position.y;
 	}
 	
 	// Update is called once per frame

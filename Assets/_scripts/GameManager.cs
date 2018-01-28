@@ -2,10 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
     public GameObject LlamaPrefabReference;
+
+    public GameObject key;
+    public GameObject boss;
+
+    public void SpawnKey(){
+        key.SetActive(true);
+    }
+
+    public void SpawnBoss(){
+        boss.SetActive(true);
+    }
+
+    public void Win(){
+        Debug.Log("!!!Has GANADO!!!");
+    }
+
+    public void GameOver(){
+        StartCoroutine(GameManager.instance.FadeOut());
+    }
 
     void Awake()
     {
@@ -14,7 +34,7 @@ public class GameManager : MonoBehaviour {
         else if (instance != this)
             Destroy(gameObject);
        
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
 
@@ -23,10 +43,6 @@ public class GameManager : MonoBehaviour {
         Physics.gravity = new Vector3(0, 20.0f, 0);
         StartGame();
     }
-	
-
-	void Update () {
-	}
     
 
     public void StartGame()
@@ -39,6 +55,7 @@ public class GameManager : MonoBehaviour {
     {
          float fadeTime = GetComponent<Fading>().BeginFade(1);
          yield return new WaitForSeconds(fadeTime);
+         SceneManager.LoadScene("NewMain");
     }
     
 
