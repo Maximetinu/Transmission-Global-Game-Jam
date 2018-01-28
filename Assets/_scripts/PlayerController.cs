@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Damage(float fallingTime){
 		int vidaPerdida = Mathf.RoundToInt(Mathf.Pow(fallingTime, fallingFactor));
-		HealthPoints -= vidaPerdida;
+		//HealthPoints -= vidaPerdida;
 		if (vidaPerdida >= HealthPoints)
 			PerderLlamas(flamesPositions.Count - 1);
 		else
