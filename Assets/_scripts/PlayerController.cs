@@ -33,8 +33,11 @@ public class PlayerController : MonoBehaviour {
 	private int HealthPoints;
 
 	private Rigidbody2D myRigidbody;
-	private Animator anim;
+	//private Animator anim;
 	private Light aura;
+
+	//key
+	//private bool hasKey = false;
 
     void Awake()
     {
@@ -50,7 +53,7 @@ public class PlayerController : MonoBehaviour {
     void Start () {
 		HealthPoints = VidaSinLlamas;
 		myRigidbody = GetComponent<Rigidbody2D>();
-		anim = GetComponent<Animator> ();
+		//anim = GetComponent<Animator> ();
 		StartLight ();
 
 	}
@@ -196,6 +199,10 @@ public class PlayerController : MonoBehaviour {
 
 	public void AddFlamePosition(Vector2 newFlamePos){
 		flamesPositions.Add(newFlamePos);
+	}
+
+	void setKey(bool b){
+		//hasKey = b;
 	}
 }
 
