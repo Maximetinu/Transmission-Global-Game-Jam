@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour {
 
     void Start ()
     {
-        Physics.gravity = new Vector3(0, 20.0F, 0);
+        Physics.gravity = new Vector3(0, 20.0f, 0);
         StartGame();
     }
 	
@@ -42,7 +42,9 @@ public class GameManager : MonoBehaviour {
     
 
     public IEnumerator FadeIn() { 
-        float fadeTime = GetComponent<Fading>().BeginFade(-1);
+        float fadeTime = 0.0f;
+        if (GetComponent<Fading>() != null)
+            fadeTime = GetComponent<Fading>().BeginFade(-1);
         yield return new WaitForSeconds(fadeTime);
     }
 }
