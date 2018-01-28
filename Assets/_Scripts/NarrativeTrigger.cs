@@ -99,9 +99,10 @@ public class NarrativeTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player"){
             ShowNarrative();
             GetComponent<Collider2D>().enabled = false;
             GetComponentInChildren<SpotLightController>().TurnOff();
+        }
     }
 }
