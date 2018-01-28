@@ -5,6 +5,7 @@ using UnityEngine;
 public class Parallax : MonoBehaviour {
 
 	public float factor = 0.01f;
+	public float offset = 0.0f;
 	private float playerInitialPositionY;
 	private float currentPlayerPositionY;
 
@@ -15,6 +16,6 @@ public class Parallax : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector2(transform.position.x, playerInitialPositionY + PlayerController.instance.transform.position.y * factor);
+		transform.position = new Vector2(transform.position.x, playerInitialPositionY + PlayerController.instance.transform.position.y * factor + offset);
 	}
 }
