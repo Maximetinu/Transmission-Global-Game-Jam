@@ -6,8 +6,9 @@ TagManager:
   tags:
   - Suelo
   - Platform
-  - fire
   - NarrativeText
+  - Llama
+  - fire
   layers:
   - Default
   - TransparentFX
@@ -20,9 +21,9 @@ TagManager:
   - Light
   - LightAmbient
   - NarrativeText
-  - 
-  - 
-  - 
+  - Player
+  - PlayerGround
+  - Llama
   - 
   - 
   - 

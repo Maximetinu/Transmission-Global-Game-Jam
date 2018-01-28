@@ -4,31 +4,50 @@ using UnityEngine;
 
 public class FireController : MonoBehaviour {
 
-	private Light _light;
-
 	//Intial position of the fire
-	public Vector3 position;
+	private Vector2 originPosition;
+	private float speed = 2.0f;
+	private float distanceUmbral = 2.0f;
+	bool moveToOrigin = false;
+	private Rigidbody2D myRigidbody;
 
-	//time for flashing
-	private float minWaitTime =0.5f;
-	private float maxWaitTime=2f;
-
-	// Use this for initialization
 	void Start () {
-		position = new Vector2(this.position.x,this.position.y);
-		_light = transform.GetComponentInChildren<Light> ();
-		StartCoroutine (flashing ());
+		if (OriginPositionSetted == false)
+			originPosition = new Vector2(transform.position.x, transform.position.y);
+
+		moveToOrigin = (originPosition != null && Vector2.Distance(originPosition,transform.position) >= distanceUmbral);
+		myRigidbody = GetComponent<Rigidbody2D>();
+		StartCoroutine(DisableColliderForSeconds(1.0f));
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	IEnumerator DisableColliderForSeconds(float nonCollisionTime)
+	{
+		GetComponent<Collider2D>().enabled = false;
+		yield return new WaitForSeconds(nonCollisionTime);
+		GetComponent<Collider2D>().enabled = true;
 	}
-		
-	IEnumerator flashing (){
-		while (true) {
-			yield return new WaitForSeconds (Random.Range(minWaitTime,maxWaitTime));
-			_light.enabled = !_light.enabled;
+
+	void FixedUpdate()
+	{
+		if (moveToOrigin){
+			//GetComponent<Rigidbody2D>().AddForce(0.5f * acceleration * Time.time * myRigidbody.mass * (originPosition - new Vector2(transform.position.x, transform.position.y).normalized));
+			GetComponent<Rigidbody2D>().velocity = (originPosition - new Vector2(transform.position.x, transform.position.y).normalized * speed);
+			if (Vector2.Distance(originPosition, transform.position) <= distanceUmbral * 2.0f){
+				transform.position = originPosition; 
+				myRigidbody.velocity = Vector2.zero;
+				moveToOrigin = false;
+				myRigidbody.simulated = false;
+			}
 		}
+	}
+
+	public Vector2 GetOriginPosition(){
+		return originPosition;
+	}
+
+	private bool OriginPositionSetted = false;
+	public void SetOriginPosition(Vector2 pos){
+		originPosition = pos;
+		OriginPositionSetted = true;
 	}
 }

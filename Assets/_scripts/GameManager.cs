@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
+    public GameObject LlamaPrefabReference;
 
     void Awake()
     {

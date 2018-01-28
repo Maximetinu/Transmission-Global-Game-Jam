@@ -84,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1612291085711984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4181634624602100}
@@ -181,10 +181,10 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0.3633218, g: 0.4236248, b: 0.8235294, a: 1}
-  m_Intensity: 5
-  m_Range: 12.4
-  m_SpotAngle: 19
+  m_Color: {r: 0.5183824, g: 0.69249487, b: 0.75, a: 1}
+  m_Intensity: 3
+  m_Range: 5
+  m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -236,9 +236,10 @@ MonoBehaviour:
   jumpForce: 8
   isJumping: 0
   range: 4
-  LightCurrent: 0
-  LigthInitial: 40
-  FallingDeathTimer: 3
+  LightMaxRange: 150
+  fallingFactor: 1.5
+  FallingDamageTimer: 3
+  VidaSinLlamas: 3
 --- !u!212 &212135140867475632
 SpriteRenderer:
   m_ObjectHideFlags: 1
