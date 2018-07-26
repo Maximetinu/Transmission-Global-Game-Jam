@@ -5,7 +5,7 @@ https://globalgamejam.org/2018/games/message-3 (credits inside)
 Download the game [here](https://ggj.s3.amazonaws.com/games/2018/01/192756/exec/E30L4/release.zip)
 
 ### We won a mention by FemDevs!
-We won a mention to the most gender-inclusive game made in Global Game Jam Granada, by [FemDevs](https://femdevs.org/). [Check it here!](https://femdevs.org/2018/02/03/global-game-jam-granada/)
+We won a mention to **the most gender-inclusive game** made in Global Game Jam Granada 2018, by [FemDevs](https://femdevs.org/). [Check it here!](https://femdevs.org/2018/02/03/global-game-jam-granada/)
 
 
 ## Screenshots
